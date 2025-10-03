@@ -1,5 +1,4 @@
-# self_balancing_robot
-# Self Balancer (2-Wheel) — ROS2 + ESP32
+# self_balancing_robot (2-Wheel) — ROS2 + ESP32
 
 ## Overview
 This project implements a self-balancing two-wheel robot: IMU + encoders on ESP32 -> serial -> ROS2 imu_bridge -> Complementary filter -> Balance PID -> motor_comm -> ESP32 motors.
